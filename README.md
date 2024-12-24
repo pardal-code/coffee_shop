@@ -1,8 +1,5 @@
 # ☕ Coffee Shop  
 
-![Capa do Projeto](https://via.placeholder.com/800x200.png?text=Coffee+Shop+Preview)  
-<sub>*Substitua o link acima por uma imagem real do seu projeto*</sub>
-
 ## 📖 Sobre o projeto  
 O **Coffee Shop** é uma página web para uma cafeteria fictícia, projetada com o objetivo de criar uma experiência visual imersiva para os visitantes. A aplicação utiliza o framework Bootstrap e conceitos de design responsivo.  
 
