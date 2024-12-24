@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coffe Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+  <body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logotipo Cafeteria"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Cardápio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#local">Local</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+              <button class="btn btn-primary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- CAROUSEL -->
+    <header id="carousel-coffe" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Grãos de café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A melhor expêrincia gastronômica de café </h5>
+            <p>Você vai experimentar os melhores cafés do Brasil e do mundo.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Balcão do café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Um ambiente pensado para você e sua família.</h5>
+            <p>Nosso restaurante foi pensado para te fornecer um ambiente cofortável, tranquilo e leve.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Preparação do café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Os melhores grãos</h5>
+            <p>Trabalhamos com grãos selecionados, da melhor qualidade, do jeito que Você merece!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffe" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffe" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
+
+    <!-- BLOQUE -->
+    <figure>
+      <blockquote class="blockquote">
+        <h3 class="fw-lighter text-center fst-italic mt-5">O amor é um café às oito da manhã numa segunda</h3>
+      </blockquote>
+      <figcaption class="blockquote-footer text-center">
+        <cite title="Source Title">Coffee Shop</cite>
+      </figcaption>
+    </figure>
+
+    <!-- About Cards -->
+    <section id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1542372147193-a7aca54189cd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="Café Expresso">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Somos apaixonados por café</h5>
+                  <h6 class="card-subtitle text-muted mb-3">Acreditamos que o café pode mudar (seu) mundo</h6>
+                  <p class="card-text mt-3">Cada xícara de café é uma oportunidade para transformar o seu dia, energizar sua mente e inspirar novas possibilidades.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1518481576448-cbfe62a0c8d4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="Barista preparando o café">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Equipe premium de baristas</h5>
+                  <h6 class="card-subtitle text-muted mb-3">Profissionais especializados para levar o melhor café até sua mesa</h6>
+                  <p class="card-text mt-3">Com paixão e técnica, nossa equipe transforma cada grão em uma experiência única, garantindo o sabor perfeito em cada xícara.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="container mt-5">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="espresso-tab" data-bs-toggle="tab" data-bs-target="#espresso-tab-pane" type="button" role="tab" aria-controls="espresso-tab-pane" aria-selected="true">Espresso</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="cappuccino-tab" data-bs-toggle="tab" data-bs-target="#cappuccino-tab-pane" type="button" role="tab" aria-controls="cappuccino-tab-pane" aria-selected="false">Cappuccino</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="iced-coffe-tab" data-bs-toggle="tab" data-bs-target="#iced-coffe-tab-pane" type="button" role="tab" aria-controls="iced-coffe-tab-pane" aria-selected="false">Gelado</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="special-tab" data-bs-toggle="tab" data-bs-target="#special-tab-pane" type="button" role="tab" aria-controls="special-tab-pane" aria-selected="false">Especial</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="espresso-tab-pane" role="tabpanel" aria-labelledby="espresso-tab" tabindex="0">
+          <!-- Coffe Menu-->
+          
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://static.itdg.com.br/images/auto-auto/7e3a0d50d7e2043184452d6a3849f676/shutterstock-493914592.jpg" class="card-img-top" alt="Café Expresso">
+                <div class="card-body">
+                  <h5 class="card-title">Elegância Simples do Espresso</h5>
+                  <p class="card-text">Café espresso recém-preparado, servido em uma xícara elegante. Perfeito para momentos de prazer e sofisticação.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://static.itdg.com.br/images/auto-auto/a28650d9a16731fcd02b535f3fca1fc8/shutterstock-529515136.jpg" class="card-img-top" alt="xícara de café doble">
+                <div class="card-body">
+                  <h5 class="card-title">Café Doble Espresso</h5>
+                  <p class="card-text">Café doble espresso servido em uma xícara elegante, perfeito para quem busca um sabor mais intenso e encorpado.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://coffeelounge.delonghi.com/wp-content/uploads/2022/09/FLAT_WHITE_4.jpg" class="card-img-top" alt="xícara de café com leite">
+                <div class="card-body">
+                  <h5 class="card-title">Café com Leite Delicioso</h5>
+                  <p class="card-text">O café possui uma camada espumosa no topo, sugerindo um toque cremoso e um sabor rico e aveludado.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://www.guiadasemana.com.br/contentFiles/image/opt_w1280h720/2019/10/FEA/48956_shutterstock-281119871.jpg" class="card-img-top" alt="xícara de café breve">
+                <div class="card-body">
+                  <h5 class="card-title">Café Breve</h5>
+                  <p class="card-text">O café breve é uma mistura cremosa e rica, composta por café espresso e uma espuma espessa de leite e creme.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://c.pxhere.com/photos/75/d9/aroma_breakfast_close_up_coffee_coffee_cup_coffee_drink_coffee_mug_coffee_shop-1494811.jpg!s2" class="card-img-top" alt="xícara de café panna">
+                <div class="card-body">
+                  <h5 class="card-title">Café Espresso Panna</h5>
+                  <p class="card-text">O café espresso panna é uma delícia cremosa, servido com uma camada generosa de chantilly fresco no topo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://www.recetasderechupete.com/wp-content/uploads/2023/11/Cafe-americano-portada-1200x828.jpg" class="card-img-top" alt="xícara de café americano">
+                <div class="card-body">
+                  <h5 class="card-title">Café Americano</h5>
+                  <p class="card-text">O café americano é uma bebida suave, caracterizada por uma maior proporção de água do que café, servida em uma xícara elegante.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="cappuccino-tab-pane" role="tabpanel" aria-labelledby="cappuccino-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://s2.glbimg.com/66XYDbk7yLRLLgfxGcIhZ6ovHRw=/e.glbimg.com/og/ed/f/original/2016/11/04/cappuccino_caseiro_ecodallaluna.jpg" class="card-img-top" alt="Café Capuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino Artístico</h5>
+                  <p class="card-text">Delicie-se com a perfeição de um cappuccino, onde a arte e o sabor se encontram para oferecer um momento de puro conforto e sofisticação.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://c.pxhere.com/photos/ed/b7/coffee_cappuccino_milk_coffee_beans_drink_cup_spoon_milchschaum-646241.jpg!d" class="card-img-top" alt="Café Cappucino Espuma de Coco">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino Toque de Coco</h5>
+                  <p class="card-text">Desfrute da harmonia entre a arte do café e o toque suave da espuma de coco para um momento de prazer absoluto.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://villacafe.com.br/blog/wp-content/uploads/2020/07/VillaCaf%C3%A9_Caf%C3%A9s-1.jpg" class="card-img-top" alt="Café Cappuccino Italiano">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino Italiano</h5>
+                  <p class="card-text">Desfrute da combinação perfeita de um autêntico cappuccino italiano, proporcionando um momento de puro conforto e sofisticação.</p>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+
+        <div class="tab-pane fade" id="iced-coffe-tab-pane" role="tabpanel" aria-labelledby="iced-coffe-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://static.tildacdn.com/tild3266-6639-4230-b662-643235663561/Tout-savoir-sur-le-c.jpg" class="card-img-top" alt="Café Gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Frappé Gelado</h5>
+                  <p class="card-text">Desfrute de um delicioso frappé gelado, perfeito para se refrescar. Feito com café espresso e gelo batido, é uma verdadeira experiência.</p>
+                </div>
+              </div>
+            </div> 
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://receitasdepesos.com.br/wp-content/uploads/2023/11/Sobremesa-italiana-Affogato-cafe-e-sorvete.jpg.webp" class="card-img-top" alt="Café Gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Affogato Italiano</h5>
+                  <p class="card-text">Saboreie a combinação perfeita de sorvete cremoso e um intenso espresso, criando uma experiência deliciosa e sofisticada.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://holycafe.com.br/wp-content/uploads/2024/08/cafe-gelado-com-leite-condensado-o-sabor-irresistivel-da-nossa-terra-ffdde-1.jpg" class="card-img-top" alt="Café Gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Frappé Gelado com Leite Condensado</h5>
+                  <p class="card-text">Desfrute de um delicioso frappé gelado, feito com café espresso, gelo batido e um toque de leite condensado, criando uma experiência de prazer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+    
+
+        <div class="tab-pane fade" id="special-tab-pane" role="tabpanel" aria-labelledby="special-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://www.graogourmet.com/wp-content/uploads/2021/03/irish_coffee.jpeg" class="card-img-top" alt="Café Especial Irlandês">
+                <div class="card-body">
+                  <h5 class="card-title">Café Irlandês</h5>
+                  <p class="card-text">Um clássico aconchegante feito com café, whisky irlandês e uma generosa cobertura de creme batido, perfeito para aquecer suas noites.</p>
+                </div>
+              </div>
+            </div> 
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://naopiradesopila.com/wp-content/uploads/2017/07/image-1024x768.jpg" class="card-img-top" alt="Café Especial Havaiano">
+                <div class="card-body">
+                  <h5 class="card-title">Café Havaiano</h5>
+                  <p class="card-text">Delicie-se com um café havaiano refrescante, servido em um copo com borda decorada com nozes trituradas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/46/8e/bc/espresso-romano-e-shakerato.jpg" class="card-img-top" alt="Café Especial Romano">
+                <div class="card-body">
+                  <h5 class="card-title">Café Romano</h5>
+                  <p class="card-text">Desfrute da sofisticada mistura de espresso italiano com um toque cítrico de limão, criando uma experiência única e refrescante.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <section id="local" class="container text-center mt-5 mb-3">
+      <!-- Button modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localmodal">
+        Quero conhecer o Coffee Shop
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="localmodal" tabindex="-1" aria-labelledby="localmodalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="localmodalLabel">Estamos te esperando!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Te esperamos na Rua Alegria, n. 999 - Jd. Paulista São Paulo</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197353585598!2d-46.6590692248911!3d-23.56135447879988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-PT!2sbr!4v1735053118934!5m2!1spt-PT!2sbr" id="maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center bg-dark p-5 mt-5 text-light">
+    <img width="80" src="assets/img/logo.png" alt="Logotipo Coffee Shop">
+    <p class="mt-2 mb-0 fw-bold">Coffee Shop | Transformando sua experiência com café</p>
+    <p>(11) 91111-1111</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
